@@ -1,0 +1,109 @@
+/* header */
+.lfwf-logo img {
+    width: 30px;
+    margin-right: 12px;
+}
+/* slider */
+
+.slider{
+   background: #f9f9ff;
+}
+
+.Btn-s {
+    background: #a074c4;
+    color:#fff;
+}
+.h6-r{
+    margin-top: 170px;
+}
+/* about */
+.about{
+    background:rgb(255, 255, 255);
+}
+.about-img img{
+    margin-right: 50px;
+}
+.about-img img{
+    position: relative;
+}
+.about-img img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+
+}
+   
+/* number-counter */
+.number-counter{
+    background: #a074c4;
+}
+.number-counter p{
+    font-size: 14px;
+
+}
+.number-counter h2{
+    font-size: 30px;
+}
+
+
+/* .p-dib{
+    background: #d7d8da;
+    width:50px ;
+    border-radius: 50%;
+} */
+.p-section{
+    background: #f9f9ff;
+}
+.p-dib h2{
+    display: inline-block;
+    padding: 30px;
+    border-radius: 80%;
+    background: #d7d8da;
+}
+.p-dib a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #8f41ce;
+    border: 1px solid #a074c4;
+}
+.p-dib a:hover{
+    color: #fff;
+    background: #8f41ce;
+}
+/* testimonial */
+.testimonial{
+
+}
+
+.t-items img {
+    margin-top: -74px;
+    margin-left: 13px;
+    width: 100px;
+}
+.p-font-size{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+/* footer */
+footer{
+    background:#04091e ;
+    color: #fff;
+    height: 40px;
+    
+}
+footer h6 {
+    font-size: 16px;
+    font-weight: 400;
+    
+    line-height: 3;
+}
